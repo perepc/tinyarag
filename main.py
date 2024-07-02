@@ -9,7 +9,7 @@ from packages.graph.tinyarag import app
 
 # Run
 inputs = {
-    "question": "Which washing programs Potter 3000 has?"
+    "question": "Which washing programs does Potter 3000 have?"
 }
 app.stream(inputs)
 for output in app.stream(inputs):
